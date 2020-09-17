@@ -13,7 +13,7 @@
   % The above copyright notice, the creator of the formuary package G.R. Pollak
   % and this permission notice shall be included in all copies or substantial portions of the Software.
 
-% ==============================================================================
+%new Foo ==============================================================================
 % End
 % ==============================================================================
 % ------------------------------------------------------------------------------
@@ -44,12 +44,14 @@
 % Other very usefull packages
 % ------------------------------------------------------------------------------
 \usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
-\usepackage[skip=0pt]{caption}
+\usepackage[skip=0pt]{subcaption}
 \usepackage{wrapfig}
-\usepackage{subcaption}
 \usepackage{tabularx}
 % In order to use inkscape figures with transparent fillings using alpha
 \usepackage{transparent}
+% Those two font packages are needed for non superscript tilde ~ in minted snippets
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
 % -----------------------------Minted------------------------------------------- 
 % minted uncomment next two lines
 % ------------------------------------------------------------------------------ 
